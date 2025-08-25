@@ -31,6 +31,7 @@ Aplicação web criada com **Node.js + Express** que permite aos usuários se ca
 ```bash
 git clone https://github.com/seu-usuario/thoughts-app.git
 cd thoughts-app
+```
 
 ## 💻 Instale as dependências:
 
