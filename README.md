@@ -47,6 +47,10 @@ Edite o arquivo db/conn.js com suas credenciais
 ```bash
 npm start
 ```
+## 🔐 Autenticação
+
+As senhas são criptografadas com bcryptjs e o controle de sessão é feito via express-session, mantendo os dados em arquivos com session-file-store.
+
 ## 📁 Estrutura de rotas
 
 🔐 Rotas de autenticação (/routes/AuthRoute.js)
@@ -76,4 +80,6 @@ POST /remove – Remover pensamento
 GET /dashboard – Dashboard do usuário autenticado
 
 GET / – Página inicial com pensamentos públicos
+
+
 
