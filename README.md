@@ -34,9 +34,9 @@ cd thoughts-app
 ```
 
 ## 💻 Instale as dependências:
-
+```bash
 npm install
-
+```
 ## 💾 Configure o banco de dados:
 
 Crie um banco MySQL chamado toughts
@@ -44,9 +44,9 @@ Crie um banco MySQL chamado toughts
 Edite o arquivo db/conn.js com suas credenciais
 
 ## 🔥 Rode o projeto:
-
+```bash
 npm start
-
+```
 ## 📁 Estrutura de rotas
 
 🔐 Rotas de autenticação (/routes/AuthRoute.js)
